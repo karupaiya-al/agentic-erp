@@ -5,9 +5,9 @@ from database.schema_duckdb import create_duckdb_schema
 from database.populate_duckdb import populate_duckdb
 from database.schema_sqlite import create_sqlite_schema
 import pandas as pd
-from setup_db import setup_all
+# from setup_db import setup_all
 
-setup_all()
+# setup_all()
 
 st.set_page_config(page_title="Agentic ERP System", layout="wide")
 
